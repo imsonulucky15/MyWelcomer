@@ -1,0 +1,73 @@
+#discord: imsonulucky
+
+# Default reward commands
+rewardCommands:
+  - give %player% minecraft:diamond 1
+  - eco give %player% 1000
+
+# tiered rewards section
+# This section defines the tiered reward milestones and the messages/commands associated with them
+
+tiered_rewards:
+  5:
+    message: "&7Congratulations! You've welcomed 5 players! Enjoy your reward!"
+    command: "give %player% diamond 1"
+  10:
+    message: "&7Great job! You've welcomed 10 players! Here's a reward!"
+    command: "give %player% gold_ingot 5"
+  15:
+    message: "&7Amazing! 15 players welcomed! You earned a special reward!"
+    command: "give %player% emerald 3"
+  20:
+    message: "&7Awesome! 20 players welcomed! Here's a special gift!"
+    command: "give %player% iron_sword 1"
+  25:
+    message: "&7Incredible! You've welcomed 25 players! Here's a rare reward!"
+    command: "give %player% enchanted_book{Enchantments:[{id:sharpness,lvl:1}]} 1"
+  30:
+    message: "&7Epic! You've welcomed 30 players! You're a legend!"
+    command: "give %player% diamond_pickaxe 1"
+
+# Sound settings
+# The sound that plays when you /welcome a player
+welcome: "ENTITY_PLAYER_LEVELUP"  # Default sound when welcoming
+volume: 1.0                       # Volume (0.0 to 1.0)
+pitch: 1.0                        # Pitch (0.0 to 2.0)
+
+# The message sent when a player welcomes someone
+welcome-send: '&7[&aMyWelcomer&7] &a%player% has welcomed a new player! #%unique_joins%'
+
+# List of all available sounds
+# ENTITY_PLAYER_LEVELUP
+# ENTITY_PLAYER_HURT
+# ENTITY_PLAYER_DEATH
+# ENTITY_PLAYER_ATTACK_SWEEP
+# ENTITY_PLAYER_ATTACK_CRIT
+# ENTITY_PLAYER_ATTACK_NON_CRIT
+# ENTITY_PLAYER_BIG_FALL
+# ENTITY_PLAYER_BREATH
+# ENTITY_PLAYER_BURN
+# ENTITY_PLAYER_DROWN
+# ENTITY_PLAYER_HURT
+# ENTITY_PLAYER_FALL
+# ENTITY_ITEM_PICKUP
+# BLOCK_NOTE_BLOCK_BELL
+# BLOCK_NOTE_BLOCK_BASS
+# BLOCK_NOTE_BLOCK_SNARE
+# BLOCK_NOTE_BLOCK_HAT
+# BLOCK_NOTE_BLOCK_PLING
+# BLOCK_NOTE_BLOCK_FLUTE
+# BLOCK_NOTE_BLOCK_GUITAR
+# BLOCK_NOTE_BLOCK_XYLOPHONE
+# BLOCK_NOTE_BLOCK_BANJO
+# BLOCK_NOTE_BLOCK_PLUCK
+# BLOCK_BELL_USE
+# ENTITY_ITEM_FRAME_ADD_ITEM
+# ENTITY_ITEM_FRAME_REMOVE_ITEM
+# ENTITY_VILLAGER_AMBIENT
+# ENTITY_VILLAGER_TRADE
+# ENTITY_VILLAGER_DEATH
+# ENTITY_VILLAGER_HURT
+# ENTITY_VILLAGER_NO
+# ENTITY_VILLAGER_YES
+# ENTITY_VILLAGER_CELEBRATE

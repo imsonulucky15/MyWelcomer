@@ -1,0 +1,15 @@
+name: MyWelcomer
+version: 1.0-SNAPSHOT
+api-version: 1.21.4
+main: me.imsonulucky.myWelcomer.MyWelcomer
+
+commands:
+  welcome:
+    description: Welcomes the most recent player who joined the server and rewards you with 1000 money.
+    usage: /welcome
+    permission: mywelcomer.welcome
+
+  reload:
+    description: Reloads the plugin configuration and messages.
+    usage: /mywelcomer reload
+    permission: mywelcomer.reload
